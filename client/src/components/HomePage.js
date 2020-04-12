@@ -15,7 +15,6 @@ class HomePage extends Component {
         <a className="btn btn-primary btn-lg" href="/signup" role="button">Start Now</a>
       </div>
 
-
     );
   }
 }
