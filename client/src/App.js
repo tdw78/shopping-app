@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Provider} from 'react-redux';
+import { Provider } from 'react-redux';
 import store from './store';
-import {Container} from 'reactstrap';
 import HomePage from './components/HomePage';
-import {Link, Route, Switch, BrowserRouter} from 'react-router-dom';
+import { Route, Switch, BrowserRouter} from 'react-router-dom';
 import Signin from './components/users/Signin';
 import Signup from './components/users/Signup';
 import ShoppingList from './components/ShoppingList';
