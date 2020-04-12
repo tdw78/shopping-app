@@ -8,6 +8,8 @@ server.listen(port);
 const cors = require("cors");
 const Item = require("./models/Item");
 const io = require("socket.io").listen(server);
+const path = require("path");
+const express = require("express");
 
 io.on('connection', (socket) => {
   console.log("a user has connected")
