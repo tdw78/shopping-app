@@ -79,7 +79,7 @@ if(process.env.NODE_ENV === 'production'){
 
 }
 
-if((process.env.NODE_ENV = 'development')) {
+if((process.env.NODE_ENV === 'development')) {
   app.use(cors({origin: `http://localhost:3000`}));
 }
 
