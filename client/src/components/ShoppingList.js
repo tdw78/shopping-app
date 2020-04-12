@@ -31,7 +31,7 @@ class ShoppingList extends Component {
   }
 
   componentDidMount(){
-    this.socket = io('http://localhost:5000', {
+    this.socket = io('process.env.PORT', {
       transports: ["websocket", "polling" ]
    });
 
