@@ -8,7 +8,10 @@
     "test": "set NODE_ENV=test&& mocha",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "builder": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run builder"
   },
   "author": "Tim Weiss",
   "license": "ISC",
