@@ -23,7 +23,7 @@ class NavBar extends Component {
   render(){
     return (
       <div>
-        <Navbar color="primary" dark expand="sm" className="mb-12">
+        <Navbar color="primary" dark expand="xs" className="mb-12">
           <Container>
             <NavbarBrand href="/">Home</NavbarBrand>
          
