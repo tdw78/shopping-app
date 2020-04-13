@@ -31,7 +31,7 @@ class ShoppingList extends Component {
   }
 
   componentDidMount(){
-    this.socket = io('http://localhost:5000', {
+    this.socket = io('https://tdw78-shopping-app.herokuapp.com/', {
       transports: ["websocket", "polling" ]
    });
 

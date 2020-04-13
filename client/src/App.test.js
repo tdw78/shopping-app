@@ -5,7 +5,7 @@ import App from './App';
 import Signup from './components/users/Signup';
 import Signin from './components/users/Signin';
 import HomePage from './components/HomePage';
-import NavBar from './components/AppNavBar';
+import NavBar from './components/NavBar';
 import configureMockStore from "redux-mock-store";
 
 
@@ -23,7 +23,7 @@ test('renders the HomePage component', () => {
 
 test('renders the HomePage header', () => {
   const { getByText } = render(<HomePage />);
-  const header = getByText(/Ethan's Grocery Shopping App/i);
+  const header = getByText(/Ethan's Shopping App/i);
   expect(header).toBeInTheDocument();
 });
 
@@ -40,7 +40,7 @@ test('renders the Signup header', () => {
   const mockStore = configureMockStore();
   const store = mockStore({});
   const { getByText } = render(<Signup store={store} />);
-  const header = getByText(/Sign Up/i);
+  const header = getByText(/Create an Account/i);
   expect(header).toBeInTheDocument();
 });
 
