@@ -234,7 +234,7 @@ class ShoppingList extends Component {
                 </div>    
                 <div className="col-lg-3"></div>
               </div>   
-                 
+              <br></br>
               <div className="row">
                 <div className="col-xs-8 col-sm-3"></div>
                 <div className="col-sm-6 text-center">

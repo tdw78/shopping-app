@@ -7,7 +7,7 @@ class HomePage extends Component {
     return (
 
       <div className="jumbotron">
-        <h1 className="display-4">Ethan's Shopping App</h1>
+        <h1 className="display-4">The Shopping App</h1>
         <h3>Share the list and save time shopping.</h3>
         {isAuth() ? <h4>Hello, {isAuth().name}.</h4> : null}
         <hr className="my-4" />

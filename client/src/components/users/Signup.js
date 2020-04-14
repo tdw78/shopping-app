@@ -14,7 +14,6 @@ class Signup extends Component {
         email: '',
         password: '',
         passwordConfirmation: '',
-        buttonText: 'Submit',
         msg: null
       }
     }
@@ -54,8 +53,7 @@ class Signup extends Component {
       name: "",
       email: "",
       password: "",
-      passwordConfirmation: "",
-      buttonText: "Submitted"
+      passwordConfirmation: ""
     })
   }
   
@@ -106,7 +104,7 @@ class Signup extends Component {
           </div>
 
           <div>
-            <button className="btn btn-primary" onClick={this.clickSubmit}>{this.state.buttonText}</button>
+            <button className="btn btn-primary" onClick={this.clickSubmit}>Submit</button>
           </div>
         </form>      
       </div>
