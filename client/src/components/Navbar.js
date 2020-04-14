@@ -33,7 +33,7 @@ class NavBar extends Component {
                 { !isAuth() ? 
                   <Fragment>
                     <NavItem>
-                      <NavLink href="/signup">Sign Up</NavLink>
+                      <NavLink href="/signup">Create an Account</NavLink>
                     </NavItem>
            
                     <NavItem>

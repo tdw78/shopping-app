@@ -62,6 +62,7 @@ class Signin extends Component {
       <div className="col-md-6 offset-md-3">
         
         {isAuth() ? <Redirect to='/' /> : null}
+        <h1 className="display-4 text-center" style={{fontFamily: "Georgia", fontSize: '64px', color:"#37505C"}} >The Shopping App</h1>
           <h1 className="p-5 text-center"style={{fontFamily: "Georgia", fontSize: '44px', color:"#37505C"}} >Sign In</h1>
           {this.state.msg ? <Alert color="danger">{this.state.msg}</Alert> : null}
           <form>
